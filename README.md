@@ -41,8 +41,7 @@ curl -X POST https://content-relay.consciousness-portal.workers.dev/content/krit
   -d '{"value": "One breath at a time. Today counts too."}'
 ```
 
-Or use `scripts/push-content.sh <project> <key> "<value>"` from the
-[netlify-mono](https://github.com/0x-auth/netlify-mono) repo.
+Or wire up your own `push-content.sh` wrapper script that does the same POST.
 
 ## License
 
