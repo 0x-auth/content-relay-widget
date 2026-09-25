@@ -1,0 +1,24 @@
+{
+  "name": "content-relay-widget",
+  "version": "1.0.0",
+  "description": "Zero-dependency client widget for pushing/pulling small pieces of content into any static site, backed by a Cloudflare Worker + KV.",
+  "main": "content-widget.js",
+  "files": [
+    "content-widget.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "cms",
+    "static-site",
+    "cloudflare-workers",
+    "netlify",
+    "content"
+  ],
+  "author": "bitsabhi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x-auth/content-relay-widget"
+  }
+}
